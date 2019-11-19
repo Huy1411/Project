@@ -471,6 +471,7 @@ footer div:nth-child(2) ul li a:hover{
     float:left;
     width:100%;
     margin-bottom:30px;
+    box-sizing: border-box;
 }
 .sp1{
     margin-top:10px;
@@ -480,8 +481,28 @@ footer div:nth-child(2) ul li a:hover{
     height:420px;
     border:1px solid #e9e9e9;
     transition:0.9s;
+    box-sizing: border-box;
 }
+.sp1 .img-sp1{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.sp1 .thumb{
+    float: left;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.sp1 .thumb img{
+    height: 150px;
+    object-fit: cover;
+    margin-top: 70px ;
+}
+
 .sp1 div:nth-child(2){
+    height: 20px;
     position:relative;
     top:-280px;
 }
@@ -493,7 +514,6 @@ footer div:nth-child(2) ul li a:hover{
     width:30px;
     margin-left:20px;
     border-bottom:1px solid #ea5c5c;
-    border-top:1px solid #ea5c5c;
     color: #ea5c5c;
 }
 .sp1 div:nth-child(3){
@@ -585,8 +605,6 @@ footer div:nth-child(2) ul li a:hover{
        transition-delay:0.3s;
    }
 .sp1 .thumb{
-    width:298px;
-    height:298px;
     overflow: hidden;
     display: block;
 }
@@ -605,9 +623,29 @@ footer div:nth-child(2) ul li a:hover{
     border:1px solid #e9e9e9;
     transition:0.9s;
 }
+.sp3 .img-sp3{
+    width: 230px;
+    height: 250px;
+    float: left;
+}
+.sp3 .thumb3{
+    float: left;
+    height: 230px;
+    width: 230px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+}
+.sp3 .thumb3 img{
+    height: 140px;
+    object-fit: cover;
+    margin-top: 50px;
+}
 .sp3 div:nth-child(2){
     position:relative;
-    top:-200px;
+    top:-230px;
+    height: 20px;
 }
 .sp3 div:nth-child(2) p{
     font-size:11px;
@@ -617,11 +655,12 @@ footer div:nth-child(2) ul li a:hover{
     width:30px;
     margin-left:20px;
     border-bottom:1px solid #ea5c5c;
-    border-top:1px solid #ea5c5c;
     color: #ea5c5c;
 }
 .sp3 div:nth-child(3){
+    margin-top: 240px;
     text-align: center;
+    width: 100%;
 }
 .sp3 div:nth-child(3) a{
     color:black;
@@ -707,13 +746,4 @@ footer div:nth-child(2) ul li a:hover{
   }.sp3:hover .list3 ul li:nth-child(4){
        transition-delay:0.3s;
    }
-.sp3 .thumb3{
-    width:220px;
-    height:auto;
-    overflow: hidden;
-    display: block;
-}
-.thumb3 img{
-    max-width: 100%;
-    height:auto;
-}
+
